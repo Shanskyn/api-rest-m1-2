@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>DJ2 : Écrire, sécuriser, réagir</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/black.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/monokai.css">
+  <link rel="stylesheet" href="../theme-cours.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown="00-intro.md" data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n--\r?\n"></section>
+      <section data-markdown="01-netdevops.md" data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n--\r?\n"></section>
+      <section data-markdown="02-cloud.md" data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n--\r?\n"></section>
+      <section data-markdown="03-authentification.md" data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n--\r?\n"></section>
+      <section data-markdown="04-validation-injection.md" data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n--\r?\n"></section>
+      <section data-markdown="05-webhooks.md" data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n--\r?\n"></section>
+      <section data-markdown="06-tps-demi-journee.md" data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n--\r?\n"></section>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/search/search.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: 'c/t',
+      width: 1280,
+      height: 800,
+      margin: 0.04,
+      plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealSearch ]
+    });
+  </script>
+</body>
+</html>
